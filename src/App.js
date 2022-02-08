@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import AutoComplete from './component/AutoComplete';
 
 const App = () => {
-  return <div className="App"></div>;
+  return <AutoComplete />;
 };
 
 export default App;
