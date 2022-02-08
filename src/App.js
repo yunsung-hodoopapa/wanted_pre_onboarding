@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import Tab from './component/Tab';
 
 const App = () => {
-  return <div className="App"></div>;
+  return <Tab />;
 };
 
 export default App;
