@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import HashTag from './component/HashTag';
 
 const App = () => {
-  return <div className="App"></div>;
+  return <HashTag />;
 };
 
 export default App;
