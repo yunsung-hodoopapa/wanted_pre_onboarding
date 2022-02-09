@@ -5,6 +5,7 @@ import Layout from './view/Layout';
 import Home from './view/Home';
 import Tab from './component/Tab';
 import HashTag from './component/HashTag';
+import AutoComplete from './component/AutoComplete';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/modal" element={<Modal />} />
           <Route path="/tab" element={<Tab />} />
           <Route path="/hashTag" element={<HashTag />} />
+          <Route path='/autoComplete' element={<AutoComplete />} />
         </Route>
       </Routes>
     </Router>
