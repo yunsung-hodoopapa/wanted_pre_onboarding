@@ -49,6 +49,10 @@ const AutoComplete = () => {
     [keyword]
   );
 
+  const limitTypeHandler = (e) => {
+    e.target.value = e.target.value.replace(/[^\!-z\s]/gi, "");
+  };
+
   const searchResultHandler = (keyword) => {
     const data = list;
     const matched = data.filter((item) => matchItem(item, keyword));
@@ -79,6 +83,7 @@ const AutoComplete = () => {
   });
 
   const handleInputKeyDown = (e) => {
+    limitTypeHandler(e);
     if (e.keyCode === 13) {
       searchResultHandler(keyword);
     }
