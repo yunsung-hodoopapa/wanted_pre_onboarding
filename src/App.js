@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import ClickToEdit from './components/ClickToEdit';
 
 const App = () => {
-  return <div className="App"></div>;
+  return <ClickToEdit />;
 };
 
 export default App;
