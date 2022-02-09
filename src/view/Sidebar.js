@@ -42,7 +42,7 @@ const Sidebar = () => {
     { name: 'Toggle', path: '/toggle' },
     { name: 'Modal', path: '/modal' },
     { name: 'Tab', path: '/tab' },
-    { name: 'Tag', path: '/tag' },
+    { name: 'hashTag', path: '/hashTag' },
     { name: 'AutoComplete', path: '/autoComplete' },
     { name: 'ClickToEdit', path: '/clickToEdit' },
   ];
