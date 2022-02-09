@@ -40,11 +40,11 @@ const Sidebar = () => {
 
   const menus = [
     { name: 'Toggle', path: '/toggle' },
-    { name: 'Modal', path: '/Modal' },
-    { name: 'Tab', path: '/Tab' },
-    { name: 'Tag', path: '/Tag' },
-    { name: 'AutoComplete', path: '/AutoComplete' },
-    { name: 'ClickToEdit', path: '/ClickToEdit' },
+    { name: 'Modal', path: '/modal' },
+    { name: 'Tab', path: '/tab' },
+    { name: 'Tag', path: '/tag' },
+    { name: 'AutoComplete', path: '/autoComplete' },
+    { name: 'ClickToEdit', path: '/clickToEdit' },
   ];
   return (
     <Side>
