@@ -37,9 +37,13 @@ const Button = styled.button`
   width: 7em;
   height: 3em;
   border-radius: 5px;
-  background-color: #efefef;
+  border : none;
+  background-color: #F3EBE9;
+  font-color: #8F8F8F;
+  font-size: 1em;
   cursor: pointer;
 `;
+
 
 const CloseBtnWrap = styled.div`
   display: flex;
