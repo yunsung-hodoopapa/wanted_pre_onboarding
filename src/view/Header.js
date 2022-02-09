@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate  } from 'react-router-dom';
 import styled from 'styled-components';
-import Container from './Shared/Container';
+import Container from './shared/Container';
 
 const HeaderWrap = styled.header`
   background-color: #004225;

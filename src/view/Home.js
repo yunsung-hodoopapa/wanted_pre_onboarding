@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { ContentsWrap } from './Shared/ContentsWrap';
+import { ContentsWrap } from './shared/ContentsWrap';
 import { GREY } from '../constants';
 
 const Wrapper = styled.div`

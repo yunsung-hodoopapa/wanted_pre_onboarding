@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { ContentsWrap } from '../view/Shared/ContentsWrap';
+import { ContentsWrap } from '../view/shared/ContentsWrap';
 
 const CheckBoxWrapper = styled.div`
   position: relative;

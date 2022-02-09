@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import styled from 'styled-components';
 import { list } from '../constants/List';
-import { ContentsWrap } from '../view/Shared/ContentsWrap';
+import { ContentsWrap } from '../view/shared/ContentsWrap';
 import { FONT_COLOR_BLACK } from '../constants/index';
 
 const InputWrapper = styled.div`

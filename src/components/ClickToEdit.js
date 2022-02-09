@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
 import { EditableDiv } from '../shared';
-import { ContentsWrap } from '../view/Shared/ContentsWrap';
+import { ContentsWrap } from '../view/shared/ContentsWrap';
 import { GREY, FONT_COLOR_BLACK } from '../constants/index';
 
 const Wrapper = styled.div`

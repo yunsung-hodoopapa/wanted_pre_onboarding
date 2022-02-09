@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { ContentsWrap } from '../view/Shared/ContentsWrap';
+import { ContentsWrap } from '../view/shared/ContentsWrap';
 import { GREY, FONT_COLOR_BLACK } from '../constants/index';
 
 const TabWrapper = styled.div`

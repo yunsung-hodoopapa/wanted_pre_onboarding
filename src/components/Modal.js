@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { AiOutlineClose } from 'react-icons/ai';
-import { ContentsWrap } from '../view/Shared/ContentsWrap';
+import { ContentsWrap } from '../view/shared/ContentsWrap';
 import { GREY, FONT_COLOR_BLACK,BACKGROUND_COLOR } from '../constants';
 
 const Background = styled.div`
@@ -28,7 +28,7 @@ const ModalWrapper = styled.div`
   padding: 2em;
   background-color: ${BACKGROUND_COLOR};
   text-align: center;
-  z-index: 1000;
+  z-index: 100;
 `;
 
 const Button = styled.button`

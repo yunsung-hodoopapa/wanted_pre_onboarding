@@ -22,7 +22,7 @@ export const EditableDiv = ({
   const [isEditing, setIsEditing] = useState(false);
 
   useEffect(() => {
-    if (childRef && childRef.current && isEditing === true) {
+    if (childRef && childRef.current && isEditing) {
       childRef.current.focus();
     }
   }, [isEditing, childRef]);
