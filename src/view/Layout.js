@@ -1,10 +1,13 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import styled from 'styled-components';
 import Section from './Section';
-import Sidebar from './Sidebar/Sidebar';
+import Sidebar from './Sidebar';
+import Header from './Header';
+import Footer from './Footer';
 
 const Center = styled.div`
-  display: flex;
+display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -30,12 +33,12 @@ const AppContainer = styled.div`
 const Layout = ({ children }) => {
   return (
     <AppContainer>
+      <Header/>
       <Center>
         <Sidebar />
-        <Section
-          children={children}
-        />
+        <Outlet/>
       </Center>
+      <Footer />
     </AppContainer>
   );
 }

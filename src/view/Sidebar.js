@@ -39,12 +39,12 @@ const Sidebar = () => {
   const pathName = useLocation().pathname;
 
   const menus = [
-    { name: 'Toggle', path: '/menu/toggle' },
-    { name: 'Modal', path: '/menu/Modal' },
-    { name: 'Tab', path: '/menu/Tab' },
-    { name: 'Tag', path: '/menu/Tag' },
-    { name: 'AutoComplete', path: '/menu/AutoComplete' },
-    { name: 'ClickToEdit', path: '/menu/ClickToEdit' },
+    { name: 'Toggle', path: '/toggle' },
+    { name: 'Modal', path: '/Modal' },
+    { name: 'Tab', path: '/Tab' },
+    { name: 'Tag', path: '/Tag' },
+    { name: 'AutoComplete', path: '/AutoComplete' },
+    { name: 'ClickToEdit', path: '/ClickToEdit' },
   ];
   return (
     <Side>

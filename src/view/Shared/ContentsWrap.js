@@ -1,7 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
+import styled from "styled-components";
 
-const ContentsWrap = styled.div`
+export const ContentsWrap = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 1em;
@@ -20,8 +19,12 @@ const ContentsWrap = styled.div`
   }
 `;
 
-const Section = (props) => {
-  return <ContentsWrap>{props.children}</ContentsWrap>;
-};
-
-export default Section;
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #19553b;
+  align-items: center;
+  justify-content: center;
+`;

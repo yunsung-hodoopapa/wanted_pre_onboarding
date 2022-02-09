@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { ContentsWrap, Wrapper } from '../view/Shared/ContentsWrap';
 
 const CheckBoxWrapper = styled.div`
   position: relative;
@@ -47,12 +48,12 @@ const CheckBox = styled.input`
 
 const Toggle = () => {
   return (
-    <div>
+    <ContentsWrap>
       <CheckBoxWrapper>
         <CheckBox id="checkbox" type="checkbox" />
         <CheckBoxLabel htmlFor="checkbox" />
       </CheckBoxWrapper>
-    </div>
+    </ContentsWrap>
   );
 };
 
