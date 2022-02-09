@@ -19,12 +19,3 @@ export const ContentsWrap = styled.div`
   }
 `;
 
-export const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  background-color: #19553b;
-  align-items: center;
-  justify-content: center;
-`;

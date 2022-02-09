@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate  } from 'react-router-dom';
 import styled from 'styled-components';
 import Container from './Shared/Container';
 
@@ -38,13 +39,18 @@ const Title = styled.div`
   }
 `;
 const Header = () => {
+  const navigate = useNavigate();
+
+  const reloadPageHandler = () => {
+    navigate('/');
+  };
+
   return (
     <HeaderWrap>
       <Container>
         <section>
-          <Title>
-            Custom Component
-          </Title>
+          <Title
+            onClick={reloadPageHandler}>Custom Component</Title>
         </section>
       </Container>
     </HeaderWrap>

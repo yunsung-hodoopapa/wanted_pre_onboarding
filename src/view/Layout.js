@@ -5,6 +5,7 @@ import Section from './Section';
 import Sidebar from './Sidebar';
 import Header from './Header';
 import Footer from './Footer';
+import GlobalStyle from './GlobalStyle';
 
 const Center = styled.div`
 display: flex;
@@ -12,7 +13,7 @@ display: flex;
   align-items: center;
   width: 100%;
   min-width: 1024px;
-  height: 80vh;
+  height: 60vh;
   margin: 1rem 0;
   @media screen and (max-width: 500px) {
     max-width: 500px;

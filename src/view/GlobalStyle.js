@@ -7,8 +7,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    max-height: 1024px;
-    min-height: 720px;
+    max-height: 720px;
+    min-height: 480px;
     max-width: 1920px;
     min-width: 1024px;
     font-family: 'Noto Sans KR', sans-serif;

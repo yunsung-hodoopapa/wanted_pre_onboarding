@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { ContentsWrap } from '../view/Shared/ContentsWrap';
+import { GREY, FONT_COLOR_BLACK } from '../constants/index';
 
 const TabWrapper = styled.div`
   display: grid;
@@ -11,18 +12,18 @@ const TabWrapper = styled.div`
 `;
 
 const ActiveTab = styled.button`
-  background-color: #3FDEC3;
+  background-color: #3fdec3;
   font-size: 1em;
-  font-color: #FFfFFF;
+  color: ${GREY};
   font-weight: 800;
-  border : none;
+  border: none;
 `;
 
 const NonActiveTab = styled.button`
-  background-color: #F3EBE9;
+  background-color: ${GREY};
   font-size: 1em;
-  font-color: #8F8F8F;
-  border : none;
+  color: ${FONT_COLOR_BLACK};
+  border: none;
 `;
 
 const ContentsWrapper = styled.div`

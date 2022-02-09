@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { ContentsWrap, Wrapper } from '../view/Shared/ContentsWrap';
+import { ContentsWrap } from '../view/Shared/ContentsWrap';
 
 const CheckBoxWrapper = styled.div`
   position: relative;
@@ -12,7 +12,7 @@ const CheckBoxLabel = styled.label`
   width: 42px;
   height: 26px;
   border-radius: 15px;
-  background: #bebebe;
+  background-color: #bebebe;
   cursor: pointer;
   &::after {
     content: "";

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import styled from 'styled-components';
 import { list } from '../constants/List';
 import { ContentsWrap } from '../view/Shared/ContentsWrap';
+import { FONT_COLOR_BLACK } from '../constants/index';
 
 const InputWrapper = styled.div`
   display: flex;
@@ -9,7 +10,6 @@ const InputWrapper = styled.div`
   justify-content: center;
   align-items: center;
   wrap: no-wrap;
-  border: 1px solid blue;
 `;
 
 const SearchInput = styled.input`
@@ -23,7 +23,7 @@ const SearchInput = styled.input`
 const ReusultWrapper = styled.div`
   width: 30.5em;
   height: 15em;
-  border: 1px solid black;
+  border: 1px solid ${FONT_COLOR_BLACK};
   font-size: 1em;
   background-color: #ffffff;
   z-index: 100;
@@ -33,7 +33,7 @@ const List = styled.li`
   padding: 5px 2px 5px 3px;
   margin-bottom: 5px;
   border-bottom: 1px solid #efefef;
-  font-size: 12px;
+  font-size: 1em;
   list-style: none;
 `;
 

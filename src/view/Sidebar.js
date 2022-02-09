@@ -14,7 +14,6 @@ const Side = styled.div`
   border: 0.5em solid #017865;
   @media screen and (max-width: 500px) {
     width: 100%;
-    font-size: 0.5em;
     height: 10%;
     border: 0.2em solid #017865;
   }
@@ -55,7 +54,7 @@ const Sidebar = () => {
               exact
               style={{
                 color: '#004225',
-                fontSize: '1.3rem',
+                fontSize: '1rem',
                 textDecoration: 'none',
               }}
               to={menu.path}

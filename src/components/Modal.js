@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { AiOutlineClose } from 'react-icons/ai';
 import { ContentsWrap } from '../view/Shared/ContentsWrap';
+import { GREY, FONT_COLOR_BLACK,BACKGROUND_COLOR } from '../constants';
 
-const Container = styled.div`
-  display: flex;
-`;
 const Background = styled.div`
   position: fixed;
   top: 0;
@@ -28,7 +26,7 @@ const ModalWrapper = styled.div`
   max-height: 15em;
   width: 14em;
   padding: 2em;
-  background-color: tomato;
+  background-color: ${BACKGROUND_COLOR};
   text-align: center;
   z-index: 1000;
 `;
@@ -38,8 +36,8 @@ const Button = styled.button`
   height: 3em;
   border-radius: 5px;
   border : none;
-  background-color: #F3EBE9;
-  font-color: #8F8F8F;
+  background-color: ${GREY};
+  font-color: ${FONT_COLOR_BLACK};
   font-size: 1em;
   cursor: pointer;
 `;

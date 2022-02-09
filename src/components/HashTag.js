@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { AiOutlineClose } from 'react-icons/ai';
 import { ContentsWrap } from '../view/Shared/ContentsWrap';
+import { GREY, BACKGROUND_COLOR } from '../constants/index';
 
 const HashTagWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #18dc86;
+  border: 1px solid ${GREY};
   border-radius: 4px;
 `;
 const TagHolder = styled.div`
@@ -18,18 +19,19 @@ const TagHolder = styled.div`
   line-height: 20px;
   margin-right: 5px;
   padding: 3px;
-  background-color: #6ff7ba;
+  background-color: ${BACKGROUND_COLOR};
   border-radius: 5px;
+  color: ${GREY};
   font-size: 1em;
 `;
 const Input = styled.input`
   display: inline-flex;
   width: 100%;
   margin: 10px;
-  cursor: text;
   min-width: 6em;
   outline: none;
   border: none;
+  cursor: text;
 `;
 const CloseBtnWrap = styled.div`
   display: flex;
@@ -38,7 +40,7 @@ const CloseBtnWrap = styled.div`
   width: 0.8em;
   height: 0.8em;
   margin-left: 10px;
-  background-color: #18dc86;
+  background-color: ${BACKGROUND_COLOR};
   border: none;
   border-radius: 50%;
   :hover {
