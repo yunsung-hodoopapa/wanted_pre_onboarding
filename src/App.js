@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import Toggle from './component/Toggle';
 
 const App = () => {
-  return <div className="App"></div>;
+  return <Toggle/>;
 };
 
 export default App;
